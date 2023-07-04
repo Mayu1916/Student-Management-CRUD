@@ -1,0 +1,92 @@
+/* Styles for the student management system */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+}
+
+/* Container styles */
+.container {
+  margin-top: 20px;
+}
+
+/* Form styles */
+#student-form {
+  margin-bottom: 20px;
+}
+
+#student-form h2 {
+  margin-bottom: 10px;
+}
+
+#student-form div {
+  margin-bottom: 10px;
+}
+
+#student-form label {
+  display: inline-block;
+  width: 80px;
+}
+
+#student-form input[type="text"],
+#student-form input[type="number"],
+#student-form input[type="email"] {
+  width: 200px;
+}
+
+#student-form button[type="submit"],
+#student-form button[type="button"] {
+  margin-left: 10px;
+}
+
+/* Search container styles */
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  width: 200px;
+}
+
+/* Student list styles */
+#student-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#student-list th,
+#student-list td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#student-list th {
+  background-color: #f2f2f2;
+}
+
+#student-list .edit-button,
+#student-list .delete-button {
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#student-list .edit-button {
+  background-color: #2196f3;
+  margin-right: 5px;
+}
+
+#student-list .delete-button {
+  background-color: #f44336;
+}

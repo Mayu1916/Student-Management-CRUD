@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management CRUD</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Student Management System</h1>
+
+  <div class="container">
+    <form id="student-form">
+      <h2>Create / Update Student</h2>
+      <div>
+        <label for="id-input">ID:</label>
+        <input type="text" id="id-input" required>
+      </div>
+      <div>
+        <label for="name-input">Name:</label>
+        <input type="text" id="name-input" required>
+      </div>
+      <div>
+        <label for="age-input">Age:</label>
+        <input type="number" id="age-input" required>
+      </div>
+      <div>
+        <label for="grade-input">Grade:</label>
+        <input type="text" id="grade-input" required>
+      </div>
+      <div>
+        <label for="degree-input">Degree:</label>
+        <input type="text" id="degree-input" required>
+      </div>
+      <div>
+        <label for="email-input">Email:</label>
+        <input type="email" id="email-input" required>
+      </div>
+      <div>
+        <button type="submit">Add Student</button>
+        <button id="reset-button" type="button">Reset</button>
+      </div>
+    </form>
+
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search by name, email, or degree">
+      <button id="search-button">Search</button>
+    </div>
+
+    <table id="student-list">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Grade</th>
+          <th>Degree</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Student data will be dynamically rendered here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
